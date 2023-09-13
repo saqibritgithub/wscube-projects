@@ -1,7 +1,7 @@
 from colorama import init, Fore,Back,Style
 init(autoreset=True)
 prices={"indigo":45000,"PIA":50000,"vistara":55000,"Unite Arab Emirates":60000,"Blue lines":40000}
-airlines=int(input('''
+airlines=(input('''
 please select the airline you want to prefer...
     1:vistara
     2:indigo
@@ -9,7 +9,7 @@ please select the airline you want to prefer...
     4:United Arab Emirates
     5:Blue lines
 '''))
-departure_city=int(input('''
+departure_city=(input('''
 please enter your departure city or country....
     1:"Lahoure"
     2:"Karachi"
@@ -19,7 +19,7 @@ please enter your departure city or country....
     
     
 '''))
-destination=int(input('''
+destination=(input('''
 please select your destination from 1 to 10...
     1:sialkot
     2:sydney
@@ -29,7 +29,7 @@ please select your destination from 1 to 10...
    
    
 '''))
-if airlines==1:
+if airlines==1 or "vistara":
     airlines="vistara"
     if departure_city==1:
         departure_city = "lahore"
@@ -57,20 +57,32 @@ if airlines==1:
         ("invalid operation")
 
     print("you have selected airline",Fore.RED+Back.GREEN+(airlines),"departure city",Fore.RED+Back.GREEN+(departure_city),"and destination",Fore.RED+Back.GREEN+(destination))
-    s=prices["vistara"]
+    s = prices["vistara"]
     print("your fare price prediction is:", s)
+
     user_choice = (input('''
-        please write yes to confirm your ticket...
+       please write yes to confirm your ticket...
             1: yes
             2: No
-        '''))
+    '''))
     if user_choice == "yes":
         print("congratulations your ticket is confirmed safe travels")
+        exit()
     elif user_choice == "No":
         exit()
     else:
-        print("invalid operation")
-if airlines==2:
+        user_choice = (input('''
+                        please try again you did something wrong...
+                            1: yes
+                            2: No
+                        '''))
+        if user_choice == "yes":
+            print("congratulations your ticket is confirmed safe travels")
+            exit()
+        elif user_choice=="No":
+            exit()
+
+if airlines==2 or "indigo":
     airlines = "indigo"
     if departure_city == 1:
         departure_city = "lahore"
@@ -108,11 +120,22 @@ if airlines==2:
         '''))
     if user_choice == "yes":
         print("congratulations your ticket is confirmed safe travels")
+        exit()
     elif user_choice == "No":
         exit()
     else:
-        print("invalid operation")
-if airlines==3:
+        user_choice = (input('''
+                        please try again you did something wrong...
+                            1: yes
+                            2: No
+                        '''))
+        if user_choice == "yes":
+            print("congratulations your ticket is confirmed safe travels")
+            exit()
+        elif user_choice=="No":
+            exit()
+
+if airlines==3 or "PIA":
     airlines = "PIA"
     if departure_city == 1:
         departure_city = "lahore"
@@ -149,12 +172,23 @@ if airlines==3:
         '''))
     if user_choice == "yes":
         print("congratulations your ticket is confirmed safe travels")
+        exit()
     elif user_choice == "No":
         exit()
     else:
-        print("invalid operation")
+        user_choice = (input('''
+                please try again you did something wrong...
+                    1: yes
+                    2: No
+                '''))
+        if user_choice == "yes":
+            print("congratulations your ticket is confirmed safe travels")
+            exit()
+        elif user_choice=="No":
+            exit()
 
-if airlines==4:
+
+if airlines==4 or "United Arab Emirates":
     airlines = "United Arab Emirates"
     if departure_city == 1:
         departure_city = "lahore"
@@ -191,12 +225,23 @@ if airlines==4:
         '''))
     if user_choice == "yes":
         print("congratulations your ticket is confirmed safe travels")
+        exit()
     elif user_choice == "No":
         exit()
     else:
-        print("invalid operation")
+        user_choice = (input('''
+                        please try again you did something wrong...
+                            1: yes
+                            2: No
+                        '''))
+        if user_choice == "yes":
+            print("congratulations your ticket is confirmed safe travels")
+            exit()
+        elif user_choice=="No":
+            exit()
 
-if airlines==5:
+
+if airlines==5 or "Blue lines":
     airlines = "Blue lines"
     if departure_city == 1:
         departure_city = "lahore"
@@ -233,8 +278,19 @@ if airlines==5:
     '''))
     if user_choice=="yes":
         print("congratulations your ticket is confirmed safe travels")
+        exit()
     elif user_choice=="No":
         exit()
     else:
-        print("invalid operation")
+        user_choice = (input('''
+                        please try again you did something wrong...
+                            1: yes
+                            2: No
+                        '''))
+        if user_choice == "yes":
+            print("congratulations your ticket is confirmed safe travels")
+            exit()
+        elif user_choice=="No":
+            exit()
+
 
