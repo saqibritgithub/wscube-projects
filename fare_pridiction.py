@@ -161,7 +161,7 @@ if airlines==4:
     elif departure_city == 2:
         departure_city = "karachi"
     elif departure_city == 3:
-        departure_city = "delhi"
+        departure_city = "dellhi"
     elif departure_city == 4:
         departure_city = "multan"
     elif departure_city == 5:
