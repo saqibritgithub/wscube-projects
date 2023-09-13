@@ -38,4 +38,4 @@ please select your destination from 1 to 10...
     10:london
 '''))
 if airlines==1 or 4:
-    print(3444)
+    print()
