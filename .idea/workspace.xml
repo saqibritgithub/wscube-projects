@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4581837-cf4f-4bf2-8b86-9552cc6094fa" name="Changes" comment="intialize commit">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a4581837-cf4f-4bf2-8b86-9552cc6094fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/alarm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fare_pridiction.py" beforeDir="false" afterPath="$PROJECT_DIR$/fare_pridiction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flight_rf.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/flight_rf.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color.py" beforeDir="false" afterPath="$PROJECT_DIR$/color.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_string.py" afterDir="false" />
     </list>
     <list id="6b6e4a2f-24b2-42ad-a64a-c3bc07e36fa7" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,6 +195,18 @@
       <option name="presentableId" value="Default" />
       <updated>1679031715871</updated>
     </task>
+    <task id="LOCAL-00001" summary="intialize commit">
+      <created>1694620250773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694620250773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="intialize commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="intialize commit" />
   </component>
 </project>
