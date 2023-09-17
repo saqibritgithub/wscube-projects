@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4581837-cf4f-4bf2-8b86-9552cc6094fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/palandrom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/alarm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color.py" beforeDir="false" afterPath="$PROJECT_DIR$/color.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qrcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/qrcode.py" afterDir="false" />
     </list>
     <list id="6b6e4a2f-24b2-42ad-a64a-c3bc07e36fa7" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +46,7 @@
       <recent name="D:\wscube projects" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.alarm">
     <configuration name="alarm" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="wscube projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
