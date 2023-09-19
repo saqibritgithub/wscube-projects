@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4581837-cf4f-4bf2-8b86-9552cc6094fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bracket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prefix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/palandrom.py" beforeDir="false" afterPath="$PROJECT_DIR$/palandrom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/score_predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/score_predictor.py" afterDir="false" />
     </list>
     <list id="6b6e4a2f-24b2-42ad-a64a-c3bc07e36fa7" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />

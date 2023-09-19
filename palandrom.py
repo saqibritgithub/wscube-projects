@@ -1,4 +1,4 @@
-s = "babd"
+s = "nuna"
 max_palindrome = ""
 
 for i in range(len(s)):
