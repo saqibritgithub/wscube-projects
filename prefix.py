@@ -1,31 +1,17 @@
-a = ["flower", "floow", "floght"]
-
-prefix=("")
-
-
-string1 = a[0]
-string2 = a[1]
-string3 = a[2]
-s=min(string1,string2,string3,key=len)
-
-
-
-if s[0]==string2[0] and s[0]==string3[0]:
-    prefix+=s[0]
-    if s[1] == string2[1] and s[1] == string3[1]:
-            prefix += (s[1])
-    if s[2] == string2[2] and s[2] == string3[2]:
-        prefix += s[2]
-
-    print(prefix)
+str = ["flower", "floew", "flowight"]
+if not str:
+    common_prefix = ""
 else:
-    print("()")
+    shortest_str = min(str, key=len)
+    for i, char in enumerate(shortest_str):
+        for string in str:
+            if string[i] != char:
+                common_prefix = shortest_str[:i]
+                break
+        else:
+            continue
+        break
+    else:
+        common_prefix = shortest_str
 
-
-
-
-
-
-
-
-
+print(common_prefix)

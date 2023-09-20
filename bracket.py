@@ -1,7 +1,19 @@
+a = []
+brackets = {')': '(', '}': '{', ']': '['}
+s = input("enter the bracket you want to check : ")
 
-input=input("enter the bracket ;")
-
-if input=="()" or input== "{}" or input== "[]":
-    print(True)
+for char in s:
+    if char in brackets.values():
+        a.append(char)
+        print(a)
+    elif char in brackets.keys():
+        if not a or a.pop() != brackets[char]:
+            print(False)
+            break
 else:
-    print(False)
+    print(not a)
+
+
+
+
+
