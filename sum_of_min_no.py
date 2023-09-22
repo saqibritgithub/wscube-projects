@@ -25,4 +25,4 @@ if user_choice == 2:
                 a.append(m)
 
 
-    print("a:", a)
+print(a)
