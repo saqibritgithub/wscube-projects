@@ -1,15 +1,14 @@
-#
 
-l=[2,3,5,6,5,9]
-v=int(input("enter ;"))
-for i in range (1,len(l)):
+l=[7,4,7,5,3,4,7,5]
+v=int(input(" plz select the no. you want to add ;"))
+for i in range (1,len(l)+1):
     s=l[-i]+v
     if s>=10:
         r=s%10
-        print(r)
 
         l[-i]=r
         v=s//10
+
 
 
     elif s<10:

@@ -7,7 +7,7 @@ a = []
 user_choice = int(input('''
 Please enter what you want...
     1: Return a single value
-    2: Return two min numbers
+    2: Return pairs of numbers whose sum equals a random number
 '''))
 
 if user_choice == 1:
@@ -17,12 +17,9 @@ if user_choice == 1:
 if user_choice == 2:
     check = int(input("Please enter a number you want to check: "))
 
-    for element in lst:
-        if m<check:
-            d = element + m
-            if d == check:
-                a.append(element)
-                a.append(m)
+    for i in range(len(lst)):
+        for j in range(i + 1, len(lst)):
+            if lst[i] + lst[j] == check:
+                a.append((lst[i], lst[j]))
+print(max(a))
 
-
-print(a)
