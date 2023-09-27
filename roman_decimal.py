@@ -1,5 +1,6 @@
 import roman
-i = roman.fromRoman("X")
-j = roman.fromRoman("LV")
-k = roman.fromRoman("XXIV")
-print(i,j,k)
+
+number = 123
+roman_numeral = roman.toRoman(number)
+
+print(number ,"as a Roman numeral:" ,roman_numeral)
