@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-import pickle
+import pickleyou are amonkeyyou are adonkeyyou are adogyou are amonkeyyou are adogyou are adonkeyyou are amonkeyyou are amonkeyyou are amonkeyyou are adonkeyyou are adogyou are adonkeyyou are adogyou are adonkeyyou are adonkeyyou are adonkeyyou are adonkeyyou are adonkeyyou are adonkeyyou are adonkeyyou are adonkeyyou are adonkey
 import sklearn 
 import pandas as pd
 

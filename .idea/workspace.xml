@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4581837-cf4f-4bf2-8b86-9552cc6094fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/carry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/difference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multiply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peak.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/power.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alarm.py" beforeDir="false" afterPath="$PROJECT_DIR$/alarm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sum_of_min_no.py" beforeDir="false" afterPath="$PROJECT_DIR$/sum_of_min_no.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digit.py" beforeDir="false" afterPath="$PROJECT_DIR$/digit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new.py" beforeDir="false" afterPath="$PROJECT_DIR$/new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/square_root.py" beforeDir="false" afterPath="$PROJECT_DIR$/templates/square_root.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsupp.py" beforeDir="false" />
     </list>
     <list id="6b6e4a2f-24b2-42ad-a64a-c3bc07e36fa7" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,8 +183,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mutation" />
         <item itemvalue="Python.qrcode" />
+        <item itemvalue="Python.mutation" />
         <item itemvalue="Python.password" />
         <item itemvalue="Python.for_loop" />
       </list>
