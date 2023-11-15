@@ -1,23 +1,24 @@
-#have different pair of socks we have to return nu. of pairs of same colour
-#Input: l1 = [2,4,3], l2 = [5,6,4]
-#Output: [7,0,8]
-#Explanation: 342 + 465 = 807.
-l1=[9,9,9,9,9,9,9]
-l2 = [9,9,9,9]
-y=[]
-z=[]
-t=[]
-
-for i in range(1,len(l1)+1):
-    y.append(l1[-i])
-for i in range(1,len(l2)+1):
-    z.append(l2[-i])
-num1 = int("".join(map(str, y)))
-num2 = int("".join(map(str, z)))
-result=num1+num2
-digit_list = [int(digit) for digit in str(result)]
-for i in range(1,len(digit_list)+1):
-    t.append(digit_list[-i])
-print(t)
-
+#insertion at beggining
+class Node():
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+class linklist():
+    def __init__(self):
+        self.head=None
+    def push(self,new_data):
+        new_node=Node(new_data)
+        new_node.next=self.head
+        self.head=new_node
+#insertion at given node
+class linklist():
+    def __init__(self):
+        self.head=None
+    def AfterNode(self,previous,newdata):
+        if previous is None:
+            print("this is not the part of linklist")
+            return
+        new_node=Node(newdata)
+        new_node.next=previous.next
+        previous.next=new_node
 
