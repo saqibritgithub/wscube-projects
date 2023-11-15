@@ -17,15 +17,5 @@ class Company():
 a=Company("harry")
 print(a.name)#not accesessed because it is private
 print(a. _Company__name)#how to acsesss
-class Saqib:
-    def __init__(self):
-        self. __name= ""
-    def getter(self):
-        return self.__name
-    def setter(self,name):
-        self.__name=name
-obj=Saqib()
-obj.setter("moon")
-neme=obj.getter()
-print(neme)
+
 
