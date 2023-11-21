@@ -2,13 +2,13 @@ class Node():
     def __init__(self, data):
         self.data = data
         self.next = None
-        self.prev = None  # Added prev pointer to Node
+        self.prev = None
 
 class LinkedList():
     def __init__(self):
         self.head = None
 
-    def push_in_empty(self, newdata):  # Corrected method name
+    def push_in_empty(self, newdata):
         newnode = Node(newdata)
         if self.head is None:
             self.head = newnode
