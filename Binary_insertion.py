@@ -21,7 +21,7 @@ class BinarySearchTree():
                 self.rchild=BinarySearchTree(data)
 
 
-root=BinarySearchTree(10)
-list=[1,2,3,4,5,6,7,8]
-for i in list:
-    root.insert(i)
+root=BinarySearchTree(None)
+root.insert(12)
+root.insert(10)
+root.insert(1)
